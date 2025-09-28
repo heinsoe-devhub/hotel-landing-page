@@ -1,0 +1,43 @@
+ .collage-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .collage-card {
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .caption {
+      padding: 10px;
+      font-weight: 500;
+      text-align: center;
+      background-color: #ffffff;
+    }
+   
+.header-section,.city-explorer,.reservation-section{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#section1 {
+   background-image: url('https://templates.microweber.com/hostel/userfiles/media/default/manuel-moreno-dga0lq0ydpc-unsplash.jpg');
+}
+
+#section2 {
+    background-image: url('https://templates.microweber.com/hostel/userfiles/media/default/luke-porter-neqec7qa9fm-unsplash.jpg');
+}
+
+#section3 {
+    background-image: url('https://templates.microweber.com/hostel/userfiles/media/default/lose-up-coniferous-tree-branch-bali-indonesia.jpg');
+}
